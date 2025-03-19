@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONCLICK</title>
+    <script src="onclick.js" defer></script>
+    
+</head>
+<body>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            gap:10px;
+        }
+        input{
+            
+            background-color: chartreuse;
+            cursor: pointer;
+            font-size: 20px;
+            padding: 20px 55px 15px ;
+            border-radius: 10px;
+            margin: 90px;
+            
+
+        }
+        input:hover{
+            background-color: blue;
+            color: white;
+        }
+       
+        .name{
+            color: rgb(202, 21, 21);
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+        }
+    </style>
+   <div class="container">
+     <input  type="button" value="click" Onclick="alert('Hello World')">
+    <input type="button" value="click Me" Onclick="fun()">
+   </div>
+    <!-- <script>
+        function fun(){
+            document.write(`
+            <style>
+                .name{
+            color: rgb(202, 21, 21);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            padding: 70px;
+        }
+        </style>
+        <h1 class="name">HEMANTH REDDY</h1>
+        `);
+        }
+    </script> -->
+</body>
+</html>
